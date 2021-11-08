@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg-white flex flex-col">
+    <div class="flex flex-col flex-1">
+      <div class="flex flex-col md:flex-row flex-column-fluid">
+        <div
+          class="
+            flex flex-col flex-lg-row-auto
+            bg-primary
+            w-xl-600px
+            xl:relative
+          "
+        >
+          <div
+            class="flex flex-col xl:fixed top-0 bottom-0 w-xl-600px scroll-y"
+          >
+            <div class="flex flex-row-fluid flex-col text-center p-10 lg:pt-20">
+              <a href="#" class="py-9 lg:pt-20 flex justify-center">
+                <img alt="Logo" src="logo-ellipse.svg" class="h-16" />
+              </a>
+              <h1 class="font-bolder text-white fs-2qx pb-5 md:pb-10">
+                Welcome to Writer
+              </h1>
+              <p class="font-bold fs-2 text-white">
+                Plan your blog post by choosing a topic creating <br />an
+                outline and checking facts
+              </p>
+            </div>
+            <div
+              class="
+                flex flex-row-auto
+                bgi-no-repeat
+                bgi-position-x-center
+                bgi-size-contain
+                bgi-position-y-bottom
+                min-h-100px min-h-lg-350px
+              "
+              style="background-image: url(17.png)"
+            ></div>
+          </div>
+        </div>
+
+        <div class="flex flex-col flex-lg-row-fluid py-10 w-full">
+          <div
+            class="flex justify-center align-center flex-col flex-column-fluid"
+          >
+            <div class="w-lg-500px p-10 lg:p-15 mx-auto">
+              <form class="form w-full">
+                <div class="text-center mb-10">
+                  <h1 class="text-dark mb-3 font-bold text-3xl">
+                    Sign In to Writer
+                  </h1>
+                  <div class="text-gray-400 font-bold text-xl">
+                    New Here?
+                    <a href="#" class="link-primary font-bolder"
+                      >Create an Account</a
+                    >
+                  </div>
+                </div>
+
+                <div class="fv-row mb-10 relative">
+                  <label class="mb-4 fs-6 font-bold text-dark">Email</label>
+                  <input
+                    class="
+                      block
+                      w-full
+                      py-2
+                      px-4
+                      text-xl
+                      font-bold
+                      form-control form-control-solid
+                      my-5
+                    "
+                    type="email"
+                    name="email"
+                    autocomplete="off"
+                  />
+                </div>
+                <div class="fv-row mb-10 relative">
+                  <label class="mb-4 fs-6 font-bold text-dark">Password</label>
+                  <input
+                    class="
+                      block
+                      w-full
+                      py-2
+                      px-4
+                      text-xl
+                      font-bold
+                      form-control form-control-solid
+                      my-5
+                    "
+                    type="password"
+                    name="password"
+                    autocomplete="off"
+                  />
+                </div>
+                <div class="fv-row mb-10 relative">
+                  <div class="flex flex-stack mb-2">
+                    <div class="flex items-center font-bold">
+                      <input type="checkbox" class="mr-3" /> Remember me?
+                    </div>
+                    <a href="#" class="link-primary fs-6 font-bold"
+                      >Forgot Password ?</a
+                    >
+                    <!--end::Link-->
+                  </div>
+                </div>
+                <div class="fv-row mb-10 relative">
+                  <button
+                    type="submit"
+                    class="
+                      btn btn-lg btn-primary
+                      font-bold
+                      me-3
+                      my-2
+                      rounded-lg
+                      hover:bg-blue-300
+                    "
+                  >
+                    Sign In
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="flex justify-center align-center flex-wrap fs-6 p-5 pb-0">
+            <!--begin::Links-->
+            <div class="flex justify-center align-center font-bold text-6">
+              <a
+                href="#"
+                class="text-muted text-hover-primary px-2"
+                target="_blank"
+                >About</a
+              >
+              <a
+                href="#"
+                class="text-muted text-hover-primary px-2"
+                target="_blank"
+                >Support</a
+              >
+              <a
+                href="#"
+                class="text-muted text-hover-primary px-2"
+                target="_blank"
+                >Purchase</a
+              >
+            </div>
+            <!--end::Links-->
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
